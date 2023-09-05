@@ -1,0 +1,82 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .inputContainer {
+    display: flex;
+  }
+  
+  .taskInput {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .addButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .taskList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .taskItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    color: black;
+  }
+  
+  .removeButton {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
+  /* 기존 스타일 유지 */
+
+.logPanel {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: black;
+}
+
+.logList {
+  list-style: none;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.logList li {
+  padding: 4px;
+  border-bottom: 1px solid #ddd;
+}
